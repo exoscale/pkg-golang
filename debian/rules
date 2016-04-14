@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH | sed "s/^i//")
+VERSION := $(shell dpkg-parsechangelog | sed -n "s/^Version: //p")
+UPSTREAM_VERSION := $(shell echo $(VERSION) | sed "s/-.*//")
+TARBALL := go$(UPSTREAM_VERSION).linux-$(ARCH).tar.gz
+UPSTREAM_URL := "https://storage.googleapis.com/golang/$(TARBALL)"
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	rm -f $(TARBALL)
+	rm -rf go
+
+override_dh_auto_configure: $(info I: UPSTREAM_VERSION=$(UPSTREAM_VERSION)) $(info I: TARBALL=$(TARBALL))
+	wget --progress=dot:mega -O $(TARBALL) $(UPSTREAM_URL)
+	tar xf $(TARBALL)

@@ -1,0 +1,7 @@
+usr/share/go/src usr/lib/go/src
+usr/share/go/test usr/lib/go/test
+usr/share/doc/golang-doc/html usr/lib/go/doc
+usr/lib/go/bin/go usr/bin/go
+usr/lib/go/bin/godoc usr/bin/godoc
+usr/lib/go/bin/gofmt usr/bin/gofmt
+usr/lib/go usr/local/go

@@ -1,0 +1,8 @@
+/debian/*.log
+/debian/*.debhelper
+/debian/*.substvars
+/debian/*-stamp
+/debian/files
+/debian/golang*/
+/go/
+/go*.tar.gz

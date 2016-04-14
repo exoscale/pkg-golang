@@ -1,0 +1,8 @@
+Go packages are built from officially released binary tarballs. The
+generated packages try to mimick the structure of official Debian
+packages with a few changes for simplicity.
+
+To update to a newer version, update the version in
+debian/changelog. To build, use "dpkg-buildpackage -us -uc -b".
+
+ -- Vincent Bernat <bernat@debian.org>, Thu, 14 Apr 2016 09:39:11 +0200

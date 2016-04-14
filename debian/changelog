@@ -1,0 +1,6 @@
+golang (1.6.1-0~precise0+exo1) precise; urgency=medium
+
+  * Initial upload.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 14 Apr 2016 08:36:37 +0200
+
