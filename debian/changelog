@@ -1,5 +1,6 @@
-golang (2:1.6.1-0~precise0+exo3) precise; urgency=medium
+golang (2:1.6.3-0~precise0+exo1) precise; urgency=medium
 
+  * Update to Go 1.6.3.
   * In Debian/Ubuntu, Go packages are now shipped as golang-$(VERSION). Be
     compatible with that by providing the mentioned packages.
 
