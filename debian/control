@@ -11,7 +11,7 @@ Depends: golang-doc (>= ${source:Version}),
          golang-go (>= ${source:Version}),
          golang-src (>= ${source:Version}),
          ${misc:Depends}
-Provides: golang-1.6
+Provides: golang-${go:Version}
 Architecture: all
 Description: Go programming language compiler - metapackage
  The Go programming language is an open source project to make
@@ -46,7 +46,7 @@ Replaces: golang-go-darwin-386,
           golang-go-windows-amd64
 Conflicts: golang-go.tools (<< 1:0.0~git20151026.0.0f9d71c-1~),
            golang-golang-x-tools (<< 1:0.0~git20151026.0.0f9d71c-1~)
-Provides: golang-1.6-go
+Provides: golang-${go:Version}-go
 Recommends: g++, gcc, libc6-dev, pkg-config
 Suggests: bzr,
           ca-certificates,
@@ -72,7 +72,7 @@ Description: Go programming language compiler, linker, compiled stdlib
 Package: golang-src
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: golang-1.6-src
+Provides: golang-${go:Version}-src
 Description: Go programming language - source files
  The Go programming language is an open source project to make programmers more
  productive. Go is expressive, concise, clean, and efficient. Its concurrency
@@ -88,7 +88,7 @@ Description: Go programming language - source files
 
 Package: golang-doc
 Depends: golang-go, ${misc:Depends}
-Provides: golang-1.6-doc
+Provides: golang-${go:Version}-doc
 Architecture: all
 Section: doc
 Description: Go programming language - documentation
