@@ -1,3 +1,10 @@
+golang (2:1.6.1-0~precise0+exo3) precise; urgency=medium
+
+  * In Debian/Ubuntu, Go packages are now shipped as golang-$(VERSION). Be
+    compatible with that by providing the mentioned packages.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 24 Aug 2016 21:54:27 +0200
+
 golang (2:1.6.1-0~precise0+exo2) precise; urgency=medium
 
   * Initial upload.
