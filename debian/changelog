@@ -1,3 +1,9 @@
+golang (2:1.7-0~precise0+exo1) precise; urgency=medium
+
+  * Update to Go 1.7.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 26 Aug 2016 18:18:49 +0200
+
 golang (2:1.6.3-0~precise0+exo1) precise; urgency=medium
 
   * Update to Go 1.6.3.

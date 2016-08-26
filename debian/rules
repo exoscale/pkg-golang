@@ -3,7 +3,7 @@
 ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH | sed "s/^i//")
 VERSION := $(shell dpkg-parsechangelog | sed -n "s/^Version: //p")
 UPSTREAM_VERSION := $(shell echo $(VERSION) | sed -e "s/-.*//" -e "s/^.*://")
-MAJOR_UPSTREAM_VERSION := $(shell echo $(UPSTREAM_VERSION) | sed -e 's/\.[^.]*$$//')
+MAJOR_UPSTREAM_VERSION := $(shell echo $(UPSTREAM_VERSION) | sed -e 's/^\([0-9]*\.[0-9]*\).*$$/\1/')
 TARBALL := go$(UPSTREAM_VERSION).linux-$(ARCH).tar.gz
 UPSTREAM_URL := "https://storage.googleapis.com/golang/$(TARBALL)"
 
