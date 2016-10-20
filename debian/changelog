@@ -1,4 +1,10 @@
-golang (2:1.7.1-0~precise0+exo1) UNRELEASED; urgency=medium
+golang (2:1.7.3-0~precise0+exo1) precise; urgency=medium
+
+  * Update to Go 1.7.3.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 20 Oct 2016 17:13:42 +0200
+
+golang (2:1.7.1-0~precise0+exo1) precise; urgency=medium
 
   * Update to Go 1.7.1.
 
