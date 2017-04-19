@@ -1,4 +1,4 @@
-golang (2:1.8.1-0~precise0+exo1) xenial; urgency=medium
+golang (2:1.8.1-0~xenial0+exo1) xenial; urgency=medium
 
   * Forward-port to Xenial.
 
