@@ -1,6 +1,6 @@
-golang (2:1.8.4-0~precise0+exo1) precise; urgency=medium
+golang (2:1.9.1-0~precise0+exo1) precise; urgency=medium
 
-  * Update to Go 1.8.4.
+  * Update to Go 1.9.1.
 
  -- Vincent Bernat <bernat@debian.org>  Thu, 05 Oct 2017 09:21:27 +0200
 
