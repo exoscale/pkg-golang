@@ -1,3 +1,9 @@
+golang (2:1.9.2-0~bpo8+0+exo1) jessie; urgency=medium
+
+  * Cross-port to Jessie.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 26 Oct 2017 14:14:38 +0200
+
 golang (2:1.9.2-0~xenial0+exo1) xenial; urgency=medium
 
   * Forward-port to Xenial.
