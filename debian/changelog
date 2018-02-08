@@ -1,3 +1,15 @@
+golang (2:1.9.4-0~xenial0+exo1) xenial; urgency=medium
+
+  * Forward-port to Xenial.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 08 Feb 2018 06:57:40 +0100
+
+golang (2:1.9.4-0~precise0+exo1) precise; urgency=medium
+
+  * Update to Go 1.9.4.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 08 Feb 2018 06:56:42 +0100
+
 golang (2:1.9.3-0~bpo8+0+exo1) jessie; urgency=medium
 
   * Cross-port to Jessie.
