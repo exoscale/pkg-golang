@@ -1,3 +1,9 @@
+golang (2:1.10.1-0~bionic0+exo1) bionic; urgency=medium
+
+  * Forward-port to Bionic.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 02 May 2018 09:49:31 +0200
+
 golang (2:1.10.1-0~xenial0+exo1) xenial; urgency=medium
 
   * Update to Go 1.10.1.
