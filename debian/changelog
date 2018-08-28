@@ -1,3 +1,9 @@
+golang (2:1.11-0~xenial0+exo2) xenial; urgency=medium
+
+  * Do not use dh_strip.
+
+ -- Vincent Bernat <bernat@debian.org>  Tue, 28 Aug 2018 09:37:17 +0200
+
 golang (2:1.11-0~xenial0+exo1) xenial; urgency=medium
 
   * Update to Go 1.11.
