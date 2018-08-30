@@ -1,4 +1,4 @@
-golang (2:1.11-0~bionic0+exo1) bionic; urgency=medium
+golang (2:1.11-0~bionic0+exo2) bionic; urgency=medium
 
   * Forward-port to Bionic.
 
