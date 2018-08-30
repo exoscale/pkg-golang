@@ -1,4 +1,4 @@
-golang (2:1.11-0~xenial0+exo2) xenial; urgency=medium
+golang (2:1.11-0~xenial0+exo3) xenial; urgency=medium
 
   * Do not use dh_strip.
 
