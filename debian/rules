@@ -18,7 +18,7 @@ override_dh_gencontrol:
 	dh_gencontrol -- -Vgo:Version=$(MAJOR_UPSTREAM_VERSION)
 
 override_dh_strip:
-	dh_strip -Xtestdata
+override_dh_strip_nondeterminism:
 
 override_dh_auto_configure: $(info I: UPSTREAM_VERSION=$(UPSTREAM_VERSION)) $(info I: TARBALL=$(TARBALL))
 	wget --progress=dot:mega -O $(TARBALL) $(UPSTREAM_URL)
