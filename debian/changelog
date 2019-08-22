@@ -1,3 +1,9 @@
+golang (2:1.12.9-0~bionic0+exo1) bionic; urgency=medium
+
+  * Update to Go 1.12.9.
+
+ -- marc <marc@exoscale.com>  Thu, 22 Aug 2019 08:45:31 +0200
+
 golang (2:1.12.7-0~bionic0+exo1.1) bionic; urgency=medium
 
   * Update to Go 1.12.7.
