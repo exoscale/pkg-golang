@@ -2,13 +2,13 @@ golang (2:1.13.3-0~bpo8+0+exo1) jessie; urgency=medium
 
   * Cross-port to Jessie.
 
--- Jorge Espada <jorge.espada@exoscale.com>  Wed, 30 Oct 2019 10:05:31 +0100
+ -- Jorge Espada <jorge.espada@exoscale.com>  Wed, 30 Oct 2019 10:05:31 +0100
 
 golang (2:1.13.3-0~xenial0+exo1) xenial; urgency=medium
 
   * Update to Go 1.13.3.
 
--- Jorge Espada <jorge.espada@exoscale.com>  Wed, 30 Oct 2019 10:05:31 +0100
+ -- Jorge Espada <jorge.espada@exoscale.com>  Wed, 30 Oct 2019 10:05:31 +0100
 
 golang (2:1.11.2-0~bpo8+0+exo1) jessie; urgency=medium
 
